@@ -1,0 +1,30 @@
+.information-container {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    color: black;
+    margin-bottom: 100vh;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+@media only screen and (max-width: 960px) {
+    .information-container {
+        /* height: 200px; */
+        width: 100%;
+        
+
+    }
+    .information > h1 {
+        text-align: center;
+        font-size: 25px;
+
+    }
+    
+}
