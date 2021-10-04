@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import "./Curriculum";
 
 const Footer = () => {
     return (
@@ -10,12 +11,13 @@ const Footer = () => {
            </div>
            <div className="footer-contact">
                <h3>contact me</h3>
-               <p>Email: marroquin@hotmail.com <br />Cel: 9612619136
-                   </p>
+               <p>Email: marroquin@hotmail.com</p> 
+               <p>Cel: 9612619136</p>
+               <a href="./Curriculum" target="_blank">C.vitare</a>
            </div>
            <div className="footer-sns">
                <div className="desing-by">
-               Developed Web. Iván Miguel Chame Marroquín. ©2021. All rights reserved.
+               Developer Web. Iván Miguel Chame Marroquín. ©2021. All rights reserved.
                </div>
                <div className="sns-links">
                    <a href="https://www.linkedin.com/in/iv%C3%A1n-miguel-cham%C3%A9-marroqu%C3%ADn-b720a9159/" target="_blank" rel="noreferrer" >
@@ -31,7 +33,7 @@ const Footer = () => {
 
            </div>
        </footer>
-    )
-}
+    );
+};
 
-export default Footer
+export default Footer;

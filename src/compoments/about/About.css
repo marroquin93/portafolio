@@ -27,7 +27,7 @@
   width: 45%;
   align-self:flex;
   border-radius: 20px;
-  display:block flex;
+  /* display:block flex; */
   overflow: hidden;
   
 }
@@ -39,6 +39,7 @@
     flex-direction: column;
     padding: 0;
     height: auto;
+    
     
 
   }

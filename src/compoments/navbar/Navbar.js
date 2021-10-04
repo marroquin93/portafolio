@@ -10,7 +10,7 @@ const Navbar = ({ isScrolling }) => {
         <nav className={`navbar ${isScrolling > 20 ? "scrolling" : null}`}>
             <div className="navbar-logo" onClick={toTheTop}>
                 Iván Marroquín
-                <i className="fas fa-bars bars"></i>
+                {/* <i className="fas fa-bars bars"></i> */}
                 </div>
         </nav>
     )

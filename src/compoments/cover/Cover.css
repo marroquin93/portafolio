@@ -34,12 +34,13 @@
     .cover-container > h1 {
       font-size: 70px;
       text-align: center;
+      
     }
   
     .cover-container > p {
       text-align: center;
       font-size: 22px;
       width: 85%;
-      
     }
+    
   }

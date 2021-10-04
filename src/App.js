@@ -6,8 +6,7 @@ import About from "./compoments/about/About";
 import Slider from "./compoments/slider/Slider";
 import Information from "./compoments/information/Information";
 import Footer from "./compoments/footer/Footer";
-// import * as Animatable from "react-native-animatable";
-
+import Curriculum from "./compoments/footer/Curriculum";
 
 function App() {
   const [scrollHeight, setscrollHeight] = useState(0);
@@ -30,6 +29,8 @@ function App() {
       <Slider />
       <Information />
       <Footer />
+      {/* <Footer exact pach="/Curriculum" compoment={Curriculum} /> */}
+      
     </div>
   );
 }
